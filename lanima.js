@@ -50,7 +50,7 @@ class LAnima { //v 1.1
             tmp = el.getAttribute(this.data_list[i]);
             if (tmp === null)
                 tmp = 0;
-            arr[this.data_list[i]] = tmp;
+            arr[ this.data_list[i] ] = tmp;
         }
         return arr;
     }
@@ -75,6 +75,6 @@ class LAnima { //v 1.1
 let lanima = new LAnima();
 lanima.start();
 
-window.addEventListener("load", function() {
-    lanima.go()
+window.addEventListener("load", function () {
+    lanima.go();
 });
